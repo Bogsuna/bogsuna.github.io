@@ -31,6 +31,7 @@
     }
 
     h1{
+        padding-top:90px;
         text-align:center;
         font-family: monospace;
         font-size:40px; 
@@ -50,20 +51,16 @@
     ol li {
         font-size:20px;
     }
-
     #list{
         font-size:20px;  
     }
-
     #list1{
         font-size:20px; 
     }
-
     h3{
         font-family:cursive;
     }
-    
     img{
         border:10px ridge #b5deff;
-    }
+        }
     
