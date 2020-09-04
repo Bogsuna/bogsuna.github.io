@@ -1,9 +1,9 @@
     body{
-        background-color:#f5ffbe;
+        background-image: url('https://cdn.hipwallpaper.com/i/48/96/xepk6D.jpg');
+        background-size: cover;
     }
 
     .menu ul {
-        margin:0;
         padding:0;
     }
 
@@ -13,20 +13,23 @@
     }
 
     ul li a {
+        width: 150px;
+        height:27px;
+        text-align:center;
         display:block;
         padding: 25px 20px;
         text-decoration: none;
-        background-color: #cce6ff;
-        color: #000;
-        border:2px dotted black;
-        font-weight:bold;
+        background-image: url('https://i.dlpng.com/static/png/52016_preview.png');
+        background-size: 100%;
+        color:black;
+        padding-top:30px;
+        border-radius:18px;
+        font-size: 20px;
     }
 
     ul li a:hover {
-        display:block;
-        padding: 25px 20px;
+        display:block; 
         text-decoration: underline;
-        background-color: #3399ff ;
         color: white;
     }
 
@@ -51,16 +54,33 @@
     ol li {
         font-size:20px;
     }
+
     #list{
         font-size:20px;  
     }
+
     #list1{
         font-size:20px; 
     }
+
     h3{
         font-family:cursive;
     }
+
     img{
-        border:10px ridge #b5deff;
-        }
+        border:10px ridge #a6d5fc;
+    }
+
+    p{
+        font-size:20px;
+    }
+
+    li{
+        font-size:20px;
+    }
+    
+    .links{
+        font-size:20px;
+    }
+
     
