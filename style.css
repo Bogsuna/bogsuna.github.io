@@ -48,8 +48,13 @@
         margin-right: auto ;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         width: 300px;
-         height:400px;
+        height:400px;
     }
+
+    #bogomil-photo:hover {
+        transform:scale(1.1);
+    }
+
 
     #HZphoto {
         width:400px;
@@ -116,21 +121,37 @@
         background-color:rgba(248, 242, 242, 0.897);
     }
 
-    #progressbar {
-        background-color: black;
-        border-radius: 13px;
-        padding: 3px;
-    }
-      
-    #progressbar>div {
-        background-color: rgb(0, 255, 85);
-        width: 50%;
-        height: 20px;
-        border-radius: 10px;
-        text-align:center;
-    }
-
     .h-center {
           text-align:center;
     }
+
+    progress {
+        -webkit-appearance: none;
+         appearance: none;
+        width: 1500px;
+        height: 20px;
+    }
+
+      rogress::-webkit-progress-bar {
+        background-color: rgb(145, 28, 241);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    }
+
+      progress::-webkit-progress-value {
+        background-image:
+             -webkit-linear-gradient(-45deg, 
+                                     transparent 33%, rgba(0, 0, 0, 0.1) 33%, 
+                                     rgba(0,0, 0, .1) 66%, transparent 66%),
+             -webkit-linear-gradient(top, 
+                                     rgba(255, 255, 255, .25), 
+                                     rgba(0, 0, 0, .25)),
+             -webkit-linear-gradient(left, rgb(192, 233, 247), rgb(247, 194, 194));
       
+          border-radius: 8px; 
+          background-size: 35px 20px, 100% 100%, 100% 100%;
+    }
+
+      #bar{
+          text-align:center;
+          color:rgba(250, 25, 25, 0.932);
+    }
