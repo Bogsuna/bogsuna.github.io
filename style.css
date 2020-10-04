@@ -54,14 +54,19 @@
     #bogomil-photo:hover {
         transform:scale(1.1);
     }
-
-
-    #HZphoto {
+    #Hz-photo{
         width:400px;
         height:180px;
     }
 
-    #bogomil-text {
+    #profession-photos {
+        width:400px;
+        height:180px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .center-text {
         text-align:center;
         font-family:cursive;
     }
@@ -154,4 +159,13 @@
       #bar{
           text-align:center;
           color:rgba(250, 25, 25, 0.932);
+    }
+    .companies{
+        text-align:center;
+        font-family:cursive;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    #sources{
+        font-size:15px;
     }
