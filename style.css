@@ -62,8 +62,7 @@
     #profession-photos {
         width:400px;
         height:180px;
-        margin-right: 40px;
-        margin-left: 40px;
+        margin: 40px;
     }
 
     .center-text {
@@ -103,7 +102,9 @@
         font-size:20px;
         line-height:37px;
     }
-
+    #dashboard {
+        width: 100%;
+    }
     table, th, td {
         border: 1px solid black;
         border-collapse: collapse;
@@ -156,7 +157,7 @@
           background-size: 35px 20px, 100% 100%, 100% 100%;
     }
 
-      #bar{
+    #bar{
           text-align:center;
           color:rgba(250, 25, 25, 0.932);
     }
@@ -169,3 +170,43 @@
     #sources{
         font-size:15px;
     }
+    #companies{
+        width: 50%;
+        margin-left: auto;
+  margin-right: auto;
+    }
+    .firstTd{
+        background-color:  #99c2ff;
+        text-align: center;
+    }
+    .secondTd{
+        background-color: #e6f2ff;
+        text-align: center;
+    }
+    details {
+        font: 16px "Open Sans", Calibri, sans-serif;
+        width:90%;
+        margin-left: auto;
+  margin-right: auto;
+      }
+      
+      details > summary {
+
+        background-color: #b3c6ff;
+        border: none;
+        box-shadow: 3px 3px 4px black;
+        cursor: pointer;
+        list-style: none;
+      }
+      
+      details > summary::-webkit-details-marker {
+        display: none ;
+      }
+      
+      details > p {
+        border-radius: 0 0 10px 10px;
+        background-color: #ddd;
+        padding: 2px 6px;
+        margin: 0;
+        box-shadow: 3px 3px 4px black;
+      }
