@@ -183,14 +183,14 @@
         background-color: #e6f2ff;
         text-align: center;
     }
-    details {
+    .details {
         font: 16px "Open Sans", Calibri, sans-serif;
         width:90%;
         margin-left: auto;
   margin-right: auto;
       }
       
-      details > summary {
+      .details > summary {
 
         background-color: #b3c6ff;
         border: none;
@@ -199,14 +199,38 @@
         list-style: none;
       }
       
-      details > summary::-webkit-details-marker {
+      .details > summary::-webkit-details-marker {
         display: none ;
       }
-      
-      details > p {
+      .details > p {
         border-radius: 0 0 10px 10px;
-        background-color: #ddd;
+        background-color: rgb(235, 250, 253);
         padding: 2px 6px;
         margin: 0;
         box-shadow: 3px 3px 4px black;
+        text-align: left;
+    }
+
+      .sources{
+        font: 16px "Open Sans", Calibri, sans-serif;
+        width:30%;
+        padding-bottom: 10px;
+      }
+      .sources > summary {
+
+        background-color: #d0dafa;
+        border: none;
+        box-shadow: 3px 3px 4px black;
+        cursor: pointer;
+        list-style: none;
+      }
+      
+      
+      .sources > p {
+        border-radius: 0 0 10px 10px;
+        background-color: rgb(238, 247, 210);
+        padding: 2px 6px;
+        margin: 0;
+        box-shadow: 3px 3px 4px black;
+        font-size: 15px;
       }
