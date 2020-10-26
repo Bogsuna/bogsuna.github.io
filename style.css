@@ -59,7 +59,7 @@
         height:180px;
     }
 
-    #profession-photos {
+    .profession-photos {
         width:400px;
         height:180px;
         margin: 40px;
@@ -234,3 +234,13 @@
         box-shadow: 3px 3px 4px black;
         font-size: 15px;
       }
+     .motivation-photos{
+        display: block;
+        margin-left: auto;
+        margin-right: auto ;
+        margin-top: 10px;
+        width:600px;
+        height: 200px;
+        border: none;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
